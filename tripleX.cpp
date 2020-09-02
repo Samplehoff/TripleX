@@ -2,20 +2,15 @@
 
 void PrintIntroduction()
 {
-    
-    std::cout << "Triple X!\n";
+    std::cout << "You are Starkiller rebel freedom fighter!\n";
     std::cout << "Help the Rebels and survive the Base!\n";
 }
+
 
 void PlayGame()
 {
 
     PrintIntroduction();
-
-    // Print welcome message to the terminal
-    std::cout << std::endl;
-    std::cout << "Starkiller you must survive...\n";
-    std::cout << "Enter the codes to the first door...\n\n";
 
     // Declare 3 number code
     const int CodeA = 4;
@@ -49,6 +44,7 @@ void PlayGame()
         std::cout << "\n + You have FAILED the Rebels!";
     };
 }
+
 
 int main()
 {
